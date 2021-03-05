@@ -1,0 +1,11 @@
+.show-uploaded-image-wrapper{
+    /* display: flex; */
+    width: 100%;
+    margin: 1vw 4vw;
+    padding: 1rem;
+}
+
+.image-wrapper{
+    width: 100%;
+}
+

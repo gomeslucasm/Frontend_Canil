@@ -1,0 +1,30 @@
+.form-input-image {
+    /* display: grid;
+    width: fit-content;
+    width: 35vw; */
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+    margin: 1vw 4vw;
+    /* border-radius: 0.7rem;
+      border-style: solid;
+      padding: 1rem;
+      border-width: 0.12rem; */
+    font-size: 11px;
+  }
+  
+  @media (max-width: 576px) {
+    .form-input-image {
+      display: grid;
+      /* width: fit-content; */
+      width: 100%;
+      margin: 1vw 4vw;
+      border-radius: 0.7rem;
+      border-style: solid;
+      padding: 1rem;
+      border-width: 0.12rem;
+    }
+  }
+  
+  

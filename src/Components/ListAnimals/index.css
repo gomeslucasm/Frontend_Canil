@@ -1,0 +1,7 @@
+.list-animals{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    margin: 1rem 5vw;
+}

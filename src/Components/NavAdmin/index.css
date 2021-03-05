@@ -1,0 +1,9 @@
+#nav-admin {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#nav-admin-toggle{
+  background-color: #0980ce;
+    color: black;
+}

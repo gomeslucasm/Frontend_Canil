@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,50 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root{
+  --pallete-1-color:#BAE8E8;
+  --pallete-2-color:#668699;
+  --pallete-3-color:#F2FFFF;
+  --pallete-4-color:#E6FFFF;
+}
+
+input {
+  border-style: solid;
+  border-color:black;
+  border-width: 0.2vh;
+  padding-left:1rem;
+  border-radius: 1.5vh;
+}
+
+input:focus {
+  outline: none;
+}
+
+select {
+  width: 100%;
+  border-style: solid;
+  background-color: white;
+  border-width: 0.2vh;
+  border-color: black;
+  border-radius: 1.5vh;
+  padding: 0.5vh 1vw;
+}
+
+select:focus{
+  outline: none;
+}
+
+*{
+  color:black;
+}
+
+input[type = 'checkbox']{
+  width: 4vh;
+  height: 4vh;
+}
+
+ul{
+	list-style: none;
 }

@@ -1,0 +1,17 @@
+.register-form {
+  display: inline-flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-style: groove;
+  border-radius: 1vw;
+  justify-content: space-between;
+  padding-top:1vh
+}
+
+@media (max-width: 576px) {
+  .register-form {
+    border-style: none;
+  }
+}

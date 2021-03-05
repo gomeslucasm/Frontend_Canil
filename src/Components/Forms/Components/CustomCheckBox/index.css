@@ -1,0 +1,28 @@
+.form-checkbox-register {
+  display: flex;
+  width: fit-content;
+  width: 35vw;
+  margin: 1vw 4vw;
+  /* border-radius: 0.7rem;
+    border-style: solid;
+    padding: 1rem;
+    border-width: 0.12rem; */
+    /* justify-content: center;
+    margin: auto; */
+  min-height: 10vh;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .form-checkbox-register {
+    display: grid;
+    /* width: fit-content; */
+    width: 100%;
+    margin: 1vw 4vw;
+    border-radius: 0.7rem;
+    border-style: solid;
+    padding: 1rem;
+    border-width: 0.12rem;
+  }
+}

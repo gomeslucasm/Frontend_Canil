@@ -1,0 +1,27 @@
+#header{
+    height: 25vh;
+    background-color: var(--pallete-1-color);
+    width: '100%';
+    display: flex;
+    justify-content: center;
+    /* display: block; */
+}
+
+#img-banner{
+    height: 90%;
+   /*  max-width: 90%;
+    width: auto; */
+    margin: auto;
+    border-radius: 10vw;
+}
+
+@media (max-width: 575.98px) {
+    #img-banner{
+        width: 90%;
+        height: auto;
+       /*  max-width: 90%;
+        width: auto; */
+        margin: auto;
+        border-radius: 10vw;
+    }
+}

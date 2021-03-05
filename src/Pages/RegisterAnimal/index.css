@@ -1,0 +1,22 @@
+.register-animal-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#register-animal-buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: fit-content;
+    margin: auto;
+    margin-top: 7vh;
+    padding: 2rem 2rem 0 2rem;
+    border-style: groove;
+    border-radius: 3vw;
+}
+
+.register-buttons{
+   margin-bottom: 2rem;
+}
